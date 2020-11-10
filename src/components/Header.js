@@ -9,7 +9,7 @@ class Header extends React.Component{
     }
     render(){
         return(
-            <div className='Header'>
+            <div className='Header mb-5'>
                 <div className='row' style={{minHeight:'60px'}}>
                     <div className="col-3 border  d-flex justify-content-around align-items-center">
                         <h3>KEEP</h3>
@@ -21,6 +21,35 @@ class Header extends React.Component{
                         <div>A.O</div>
                     </div>
                 </div>
+                <form action="" className='loginForm  p-4 w-50 border'>
+                    <div className='form-group'>
+                        <label htmlFor="email">Email</label>
+                        <input type="email"  name='email' className='form-control' required/>
+                    </div>
+                    <div className='form-group'>
+                        <label htmlFor="password">Password</label>
+                        <input type="password" name='password' className='form-control' required/>
+                    </div>
+                    <button className='btn btn-large btn-warning' type='submit'>
+                        Login
+                    </button>
+                    <small className='form-text'>Don't have an account? Register<a href="">Here</a></small>
+                </form>
+
+                <form action="" className='signupForm  p-4 w-50 border'>
+                    <div className='form-group'>
+                        <label htmlFor="email">Email</label>
+                        <input type="email"  name='email' className='form-control' required/>
+                    </div>
+                    <div className='form-group'>
+                        <label htmlFor="password">Password</label>
+                        <input type="password" name='password' className='form-control' required/>
+                    </div>
+                    <button className='btn btn-large btn-warning' type='submit'>
+                        Register
+                    </button>
+                    <small className='form-text'>Already have an account?Login <a href="">Here</a></small>
+                </form>
             </div>
         )
     }
