@@ -1,0 +1,63 @@
+input::placeholder{
+    font-family: 'Roboto', sans-serif;
+    font-size: 22px;
+    font-weight: 500;
+}
+
+textarea::placeholder{
+    font-family: 'Roboto', sans-serif;
+    font-size: 19px;
+}
+
+.AddNotes .form-group{
+    border: #D8D9DA solid 2px;
+    border-radius: 10px;
+}
+
+textarea{
+    border:none !important;
+    resize: none;
+    font-size: 19px !important;
+    font-family: 'Roboto', sans-serif !important;
+
+    
+}
+input{
+    border:none !important;
+    font-size: 22px !important;
+    font-weight: 500 !important;
+    font-family: 'Roboto', sans-serif !important;
+
+}
+
+textarea:hover, 
+input:hover, 
+textarea:active, 
+input:active, 
+textarea:focus, 
+input:focus,
+button:focus,
+button:active,
+button:hover,
+label:focus,
+.btn:active,
+.btn.active
+{
+    outline:0px !important;
+    -webkit-appearance:none;
+    box-shadow: none !important;
+}
+
+button.add{
+    background: #F4B400;
+    position: relative;
+    bottom: 40px;
+    width: 42px;
+    height:42px;
+    border-radius: 50%;
+    font-size: 30;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}

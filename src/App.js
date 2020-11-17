@@ -1,7 +1,7 @@
 import './App.css';
 import Notes from './components/Notes'
 import Header from './components/Header'
-import Side from './components/Side'
+// import Side from './components/Side'
 import AddNote from './components/AddNote'
 
 function App() {
@@ -9,6 +9,7 @@ function App() {
     <div className="App">
       <Header/>
       <AddNote/>
+      <Notes/>
     </div>
   );
 }
